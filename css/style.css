@@ -9,3 +9,14 @@
 .navbar-brand {
     font-weight: 500;
 }
+
+.project {
+    max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.date {
+    color: rgb(126, 122, 122);
+}
