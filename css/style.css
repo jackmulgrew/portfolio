@@ -10,7 +10,10 @@
 
 nav {
     margin-top: 20px;
+    
 }
+
+
 
 .navbar-brand {
     font-weight: 500;
@@ -51,7 +54,7 @@ form {
   
   .icon i {
     font-size: 50px;
-    color: #b8b5b5;
+    color: #908c8c;
     position: relative;
   }
 
@@ -79,3 +82,143 @@ form {
     transform: translateX(-50%) translateY(-5px);
   }
   
+td {
+  text-align: center;
+}
+
+a:link {
+  color: black;
+}
+
+p.react {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+      background-color: rgb(233, 233, 228);
+       color: rgb(77, 77, 77); 
+       border-radius: 6px;
+       border: 1px solid rgb(219, 217, 217);
+
+}
+
+p.express {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.node {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.mongo {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+       color: rgb(77, 77, 77); 
+       border-radius: 6px;
+       border: 1px solid rgb(219, 217, 217);
+}
+
+p.html {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.css {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.bootstrap {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.SQL {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+       color: rgb(77, 77, 77); 
+       border-radius: 6px;
+       border: 1px solid rgb(219, 217, 217);
+}
+
+p.python {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.figma {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.javascript {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
+
+p.photoshop {
+  display:inline-block;
+   text-align: justify;
+    text-justify: inter-word;
+     padding:4px 10px 2px 10px;
+     background-color: rgb(233, 233, 228);
+     color: rgb(77, 77, 77); 
+     border-radius: 6px;
+     border: 1px solid rgb(219, 217, 217);
+}
