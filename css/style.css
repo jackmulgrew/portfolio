@@ -90,7 +90,7 @@ a:link {
   color: black;
 }
 
-p.react {
+p.technologies {
   display:inline-block;
    text-align: justify;
     text-justify: inter-word;
@@ -102,123 +102,67 @@ p.react {
 
 }
 
-p.express {
+a.email {
   display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+  text-align: justify;
+   text-justify: inter-word;
+    padding:4px 10px 2px 10px;
+    background-color: rgb(233, 233, 228);
+    color: rgb(77, 77, 77); 
+      border-radius: 6px;
+      border: 1px solid rgb(219, 217, 217);
+      transition: 0.3s;
 }
 
-p.node {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+a.email:link {
+  text-decoration: none;
 }
 
-p.mongo {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-       color: rgb(77, 77, 77); 
-       border-radius: 6px;
-       border: 1px solid rgb(219, 217, 217);
+a.email:hover { 
+  background-color: rgb(157, 197, 173);
 }
 
-p.html {
+a.linkedin {
   display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+  text-align: justify;
+   text-justify: inter-word;
+    padding:4px 10px 2px 10px;
+    background-color: rgb(233, 233, 228);
+    color: rgb(77, 77, 77); 
+      border-radius: 6px;
+      border: 1px solid rgb(219, 217, 217);
 }
 
-p.css {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+a.linkedin:link {
+  text-decoration: none;
 }
 
-p.bootstrap {
+a.github {
   display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+  text-align: justify;
+   text-justify: inter-word;
+    padding:4px 10px 2px 10px;
+    background-color: rgb(233, 233, 228);
+    color: rgb(77, 77, 77); 
+      border-radius: 6px;
+      border: 1px solid rgb(219, 217, 217);
 }
 
-p.SQL {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-       color: rgb(77, 77, 77); 
-       border-radius: 6px;
-       border: 1px solid rgb(219, 217, 217);
+a.github:link {
+  text-decoration: none;
 }
 
-p.python {
+a.cv {
   display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+  text-align: justify;
+   text-justify: inter-word;
+    padding:4px 10px 2px 10px;
+    background-color: rgb(233, 233, 228);
+    color: rgb(77, 77, 77); 
+      border-radius: 6px;
+      border: 1px solid rgb(219, 217, 217);
 }
 
-p.figma {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
-}
-
-p.javascript {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
-}
-
-p.photoshop {
-  display:inline-block;
-   text-align: justify;
-    text-justify: inter-word;
-     padding:4px 10px 2px 10px;
-     background-color: rgb(233, 233, 228);
-     color: rgb(77, 77, 77); 
-     border-radius: 6px;
-     border: 1px solid rgb(219, 217, 217);
+a.cv:link {
+  text-decoration: none;
 }
