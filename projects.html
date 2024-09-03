@@ -18,32 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-  $(document).ready(function(){
-    // Add smooth scrolling to all links
-    $("a").on('click', function(event) {
-  
-      // Make sure this.hash has a value before overriding default behavior
-      if (this.hash !== "") {
-        // Prevent default anchor click behavior
-        event.preventDefault();
-  
-        // Store hash
-        var hash = this.hash;
-  
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-          scrollTop: $(hash).offset().top
-        }, 200, function(){
-     
-          // Add hash (#) to URL when done scrolling (default click behavior)
-          window.location.hash = hash;
-        });
-      } // End if
-    });
-  });
-  </script>
+
 
      <link
     rel="stylesheet"
@@ -82,16 +57,18 @@
   <h5 style="margin-top: 50px; margin-bottom: 20px;">This Website!</h5>
   <p class="date">August 2024</p>
 
-      <img src="images/rambler.png" alt="" class="project">
+      <img src="images/portfolio.png" alt="" class="project">
 
-      <a href="https://ramblerfront.onrender.com/" style="margin-right: 5px;"><i class="fa-solid fa-globe"></i> Website ></a>
-      <a href="https://github.com/jackmulgrew"><i class="fa-brands fa-github"> </i> Repository ></a>
-
-
-  <p style="margin-top: 15px; text-align: justify; text-justify: inter-word;">Rambler was created in my honours project in the last year of my university degree. The platform is built to allow travellers to save their itineraries for ease of access. The application stores the users important travel information as well as saving important documentation such as train tickets, visa information and hotel confirmations. </p>
-  <p style="display:inline-block; text-align: justify; text-justify: inter-word;">The application was created using the MERN stack. <i class="fa-brands fa-react" title="react" style="color: aqua;"></i> <u>React</u> > was used to create the front end which the user interacts with. The back end was created using <img src="images/ex.png" width="20" height="20"> <u>Express.js</u> > and <i class="fa-brands fa-node" title="React" style="color: #3c873a"></i> <u>Node.js</u> > which run the server side and connect the users interactions to the cloud database stored on <img src="images/atlas.png" width="20" height="20"> <u>MongoDB Atlas</u> > </p>
+      <a class="projectlinks"  href="https://github.com/jackmulgrew/portfolio" target="_blank"><i class="fa-brands fa-github"> </i> Repository ></a>
 
 
+  <p style="margin-top: 25px; text-align: justify; text-justify: inter-word; font-weight: 300;">My website allows myself to showcase my portfolio pieces while adding updates to my experience and learning through blog posts. As this website has one function which is to advertise myself, I have kept the design minimalistic while focusing on providing information in a simple way. </p>
+  <p style="display:inline-block; text-align: justify; text-justify: inter-word; font-weight: 300; margin-bottom: 25px;">This website was made using HTML and CSS to create the pages and styling, Bootstrap to provide quicker development and better ways to structure web pages and JavaScript to add final touches such as animations.  </p>
+
+  <p class="technologies"><i class="fa-brands fa-html5" title="HTML5" style="color:coral ;"></i> HTML</p>
+  <p class="technologies"><i class="fa-brands fa-css3-alt" title="CCS" style="color: blue;"></i> CSS</p> 
+  <p class="technologies"><i class="fa-brands fa-bootstrap" title="Bootstrap" style="color: blueviolet;"></i> Bootstrap</p> 
+   <p class="technologies"><img src="images/js.png" width="18" height="18" style="margin-bottom: 2px;"> JavaScript</p>
 
   <div class="border-bottom" style="margin-top: 40px;"></div>
   <h5 style="margin-top: 50px; margin-bottom: 20px;">Rambler</h5>
@@ -99,15 +76,21 @@
 
       <img src="images/rambler.png" alt="" class="project">
 
-      <a href="https://ramblerfront.onrender.com/" style="margin-right: 5px;"><i class="fa-solid fa-globe"></i> Website ></a>
-      <a href="https://github.com/jackmulgrew"><i class="fa-brands fa-github"> </i> Repository ></a>
+      <a class="projectlinks" href="https://ramblerfront.onrender.com/" target="_blank" style="margin-right: 5px;"><i class="fa-solid fa-globe"></i> Website ></a>
+      <a class="projectlinks"  href="https://github.com/jackmulgrew" target="_blank" ><i class="fa-brands fa-github"> </i> Repository ></a>
 
 
 
-  <p style="margin-top: 15px; text-align: justify; text-justify: inter-word;">Rambler was created in my honours project in the last year of my university degree. The platform is built to allow travellers to save their itineraries for ease of access. The application stores the users important travel information as well as saving important documentation such as train tickets, visa information and hotel confirmations. </p>
-  <p style="display:inline-block; text-align: justify; text-justify: inter-word;">The application was created using the MERN stack. <i class="fa-brands fa-react" title="react" style="color: aqua;"></i> <u>React</u> > was used to create the front end which the user interacts with. The back end was created using <img src="images/ex.png" width="20" height="20"> <u>Express.js</u> > and <i class="fa-brands fa-node" title="React" style="color: #3c873a"></i> <u>Node.js</u> > which run the server side and connect the users interactions to the cloud database stored on <img src="images/atlas.png" width="20" height="20"> <u>MongoDB Atlas</u> > </p>
+  <p style="margin-top: 25px; text-align: justify; text-justify: inter-word; font-weight: 300;">Rambler was created in my honours project in the last year of my university degree. The platform is built to allow travellers to save their itineraries for ease of access. The application stores the users important travel information as well as saving important documentation such as train tickets, visa information and hotel confirmations. </p>
+  <p style="display:inline-block; text-align: justify; text-justify: inter-word; font-weight: 300; margin-bottom: 25px;">The application was created using the MERN stack. React was used to create the front end which the user interacts with. The back end was created using Express.js and Node.js which run the server side and connect the users interactions to the cloud database stored on MongoDB Atlas. </p>
 
-
+  <p class="technologies"><i class="fa-brands fa-react" title="react" style="color: rgb(89, 195, 195);"></i> React</p> 
+   <p class="technologies"><img src="images/ex.png" width="20" height="20" style="margin-bottom: 2px;"> Express.js</p> 
+   <p class="technologies"><i class="fa-brands fa-node" title="React" style="color: #3c873a"></i> Node.js </p> 
+   <p class="technologies"><img src="images/atlas.png" width="20" height="20" style="margin-bottom: 2px;"> MongoDB Atlas</p> 
+   <p class="technologies"><img src="images/js.png" width="18" height="18" style="margin-bottom: 2px;"> JavaScript</p>
+  <p class="technologies"><i class="fa-brands fa-html5" title="HTML5" style="color:coral ;"></i> HTML</p>
+  <p class="technologies"><i class="fa-brands fa-css3-alt" title="CCS" style="color: blue;"></i> CSS</p> 
 
   <div class="border-bottom" style="margin-top: 40px;"></div>
 
@@ -123,15 +106,19 @@
 
       <img src="images/flow.png" alt="" class="project">
 
-      <a href="https://jackmulgrew.github.io/flowprototype/" style="margin-right: 5px;"><i class="fa-solid fa-globe"></i> Website ></a>
-      <a href="https://github.com/jackmulgrew/flowprototype"><i class="fa-brands fa-github"> </i> Repository ></a>
+      <a class="projectlinks" href="https://jackmulgrew.github.io/flowprototype/" target="_blank" style="margin-right: 5px;"><i class="fa-solid fa-globe"></i> Website ></a>
+      <a class="projectlinks"  href="https://github.com/jackmulgrew/flowprototype" target="_blank"><i class="fa-brands fa-github"> </i> Repository ></a>
 
 
 
 
-  <p style="margin-top: 15px;   text-align: justify; text-justify: inter-word; ">This prototype was created in a university project where my team developed an online store for an external client. I designed this prototype using the requirements gathered from the needs of the client’s business. This initial prototype design was integrated with e-commerce functionality which was carried out by other team members. <i class="fa-brands fa-html5" title="HTML5" style="color:coral ;"></i> <u>HTML</u> > is used to create the structure of the web pages with <i class="fa-brands fa-css3-alt" title="CCS" style="color: blue;"></i> <u>CSS</u> > changing the styling of elements and <i class="fa-brands fa-bootstrap" title="Bootstrap" style="color: blueviolet;"></i> <u>Bootstrap</u> > helped by enabling user friendly development tools. </p>
+  <p style="margin-top: 25px;   text-align: justify; text-justify: inter-word; font-weight: 300; ">This prototype was created in a university project where my team developed an online store for an external client. I designed this prototype using the requirements gathered from the needs of the client’s business. This initial prototype design was integrated with e-commerce functionality which was carried out by other team members.</p>
+  <p style="text-align: justify; text-justify: inter-word; font-weight: 300; margin-bottom: 25px; ">HTML is used to create the structure of the web pages with CSS changing the styling of elements and Bootstrap helped by enabling user friendly development tools. </p>
 
-  
+  <p class="technologies"><i class="fa-brands fa-html5" title="HTML5" style="color:coral ;"></i> HTML</p>
+  <p class="technologies"><i class="fa-brands fa-css3-alt" title="CCS" style="color: blue;"></i> CSS</p> 
+  <p class="technologies"><i class="fa-brands fa-bootstrap" title="Bootstrap" style="color: blueviolet;"></i> Bootstrap</p> 
+
   <div class="border-bottom" style="margin-top: 40px;"></div>
 
   </div>
